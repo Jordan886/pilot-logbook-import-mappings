@@ -1,0 +1,23 @@
+{
+  "name": "pilotlog-import-mappings",
+  "version": "1.0.0",
+  "description": "Community-maintained aircraft mappings and logbook parsers for flight simulator import.",
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate.js",
+    "sort": "node scripts/sort.js",
+    "test": "npm run validate"
+  },
+  "keywords": [
+    "flight-simulator",
+    "logbook",
+    "xplane",
+    "msfs",
+    "aviation",
+    "icao"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "ajv": "^8.12.0"
+  }
+}

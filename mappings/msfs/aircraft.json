@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "source": "msfs",
+  "description": "Aircraft mappings for Microsoft Flight Simulator 2020/2024. source_id values correspond to the AircraftTitle column in CSV exports.",
+  "mappings": [
+    {
+      "source_id": "Asobo_A320_NEO",
+      "icao_type": "A20N",
+      "display_name": "Airbus A320neo",
+      "addon_vendor": "Asobo",
+      "tags": [
+        "stock"
+      ]
+    },
+    {
+      "source_id": "Asobo_Baron_G58",
+      "icao_type": "BE58",
+      "display_name": "Beechcraft Baron G58",
+      "addon_vendor": "Asobo",
+      "tags": [
+        "stock"
+      ]
+    },
+    {
+      "source_id": "Asobo_Boeing_747-8i",
+      "icao_type": "B748",
+      "display_name": "Boeing 747-8 Intercontinental",
+      "addon_vendor": "Asobo",
+      "tags": [
+        "stock"
+      ]
+    },
+    {
+      "source_id": "Asobo_Boeing_787_10",
+      "icao_type": "B78X",
+      "display_name": "Boeing 787-10 Dreamliner",
+      "addon_vendor": "Asobo",
+      "tags": [
+        "stock"
+      ]
+    },
+    {
+      "source_id": "Asobo_C172SP_AS1000",
+      "icao_type": "C172",
+      "display_name": "Cessna 172 Skyhawk (G1000 NXi)",
+      "addon_vendor": "Asobo",
+      "tags": [
+        "stock"
+      ]
+    },
+    {
+      "source_id": "Asobo_C172SP_Classic",
+      "icao_type": "C172",
+      "display_name": "Cessna 172 Skyhawk (Classic)",
+      "addon_vendor": "Asobo",
+      "tags": [
+        "stock"
+      ]
+    },
+    {
+      "source_id": "Asobo_KingAir350i",
+      "icao_type": "B350",
+      "display_name": "Beechcraft King Air 350i",
+      "addon_vendor": "Asobo",
+      "tags": [
+        "stock"
+      ]
+    },
+    {
+      "source_id": "Fenix A320 CEO",
+      "icao_type": "A320",
+      "display_name": "Airbus A320ceo",
+      "addon_vendor": "Fenix",
+      "tags": [
+        "addon",
+        "payware"
+      ]
+    },
+    {
+      "source_id": "iniSimulations A310-300",
+      "icao_type": "A310",
+      "display_name": "Airbus A310-300",
+      "addon_vendor": "iniBuilds",
+      "tags": [
+        "addon",
+        "freeware"
+      ]
+    },
+    {
+      "source_id": "Leonardo Fly the Maddog X MD-82",
+      "icao_type": "MD82",
+      "display_name": "McDonnell Douglas MD-82",
+      "addon_vendor": "Leonardo",
+      "tags": [
+        "addon",
+        "payware"
+      ]
+    },
+    {
+      "source_id": "PMDG 737-700",
+      "icao_type": "B737",
+      "display_name": "Boeing 737-700",
+      "addon_vendor": "PMDG",
+      "tags": [
+        "addon",
+        "payware"
+      ]
+    },
+    {
+      "source_id": "PMDG 737-800",
+      "icao_type": "B738",
+      "display_name": "Boeing 737-800",
+      "addon_vendor": "PMDG",
+      "tags": [
+        "addon",
+        "payware"
+      ]
+    },
+    {
+      "source_id": "PMDG 777-300ER",
+      "icao_type": "B77W",
+      "display_name": "Boeing 777-300ER",
+      "addon_vendor": "PMDG",
+      "tags": [
+        "addon",
+        "payware"
+      ]
+    }
+  ]
+}

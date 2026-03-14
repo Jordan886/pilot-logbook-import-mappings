@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "source": "flightlogger",
+  "description": "Aircraft mappings for FlightLogger exports. source_id values correspond to the aircraft type string in FlightLogger CSV/JSON exports.",
+  "mappings": [
+    {
+      "source_id": "C172",
+      "icao_type": "C172",
+      "display_name": "Cessna 172 Skyhawk"
+    },
+    {
+      "source_id": "CAP10",
+      "icao_type": "CP10",
+      "display_name": "Mudry CAP-10"
+    },
+    {
+      "source_id": "DA40",
+      "icao_type": "DA40",
+      "display_name": "Diamond DA40 Star"
+    },
+    {
+      "source_id": "DA42",
+      "icao_type": "DA42",
+      "display_name": "Diamond DA42 Twin Star"
+    },
+    {
+      "source_id": "P2008JC",
+      "icao_type": "P208",
+      "display_name": "Tecnam P-2008JC"
+    },
+    {
+      "source_id": "PA28",
+      "icao_type": "P28A",
+      "display_name": "Piper PA-28 Cherokee"
+    },
+    {
+      "source_id": "PA44",
+      "icao_type": "PA44",
+      "display_name": "Piper PA-44 Seminole"
+    },
+    {
+      "source_id": "SR22",
+      "icao_type": "SR22",
+      "display_name": "Cirrus SR22"
+    }
+  ]
+}

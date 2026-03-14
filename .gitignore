@@ -137,3 +137,14 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# IDE
+.vscode/
+.claude/
+.windsurf/
+
+# OS
+.DS_Store
+
+# Staging folder for testing
+staging/

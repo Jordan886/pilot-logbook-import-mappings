@@ -1,0 +1,337 @@
+{
+  "schema_version": 1,
+  "source": "xplane",
+  "description": "Aircraft mappings for X-Plane 11/12 default and popular addon aircraft.",
+  "mappings": [
+    {
+      "source_id": "737_60NG",
+      "icao_type": "B736",
+      "display_name": "Boeing 737-600",
+      "tags": [
+        "addon",
+        "freeware"
+      ]
+    },
+    {
+      "source_id": "737_70NG",
+      "icao_type": "B737",
+      "display_name": "Boeing 737-700",
+      "addon_vendor": "LevelUp",
+      "tags": [
+        "addon",
+        "freeware"
+      ]
+    },
+    {
+      "source_id": "747-400",
+      "icao_type": "B744",
+      "display_name": "Boeing 747-400",
+      "addon_vendor": "mSparks43",
+      "tags": [
+        "addon",
+        "freeware"
+      ]
+    },
+    {
+      "source_id": "757-RF_xp12",
+      "icao_type": "B752",
+      "display_name": "Boeing 757-200",
+      "addon_vendor": "FlightFactor",
+      "tags": [
+        "addon",
+        "payware"
+      ]
+    },
+    {
+      "source_id": "767-F_xp12",
+      "icao_type": "B763",
+      "display_name": "Boeing 767-300F",
+      "addon_vendor": "FlightFactor",
+      "tags": [
+        "addon",
+        "payware"
+      ]
+    },
+    {
+      "source_id": "777-200ER_xp12",
+      "icao_type": "B772",
+      "display_name": "Boeing 777-200ER",
+      "addon_vendor": "FlightFactor",
+      "tags": [
+        "addon",
+        "payware"
+      ]
+    },
+    {
+      "source_id": "777-F_xp12",
+      "icao_type": "B77L",
+      "display_name": "Boeing 777F",
+      "addon_vendor": "FlightFactor",
+      "tags": [
+        "addon",
+        "payware"
+      ]
+    },
+    {
+      "source_id": "A300",
+      "icao_type": "A30B",
+      "display_name": "Airbus A300-600R",
+      "addon_vendor": "iniBuilds",
+      "tags": [
+        "addon",
+        "payware"
+      ]
+    },
+    {
+      "source_id": "a319",
+      "icao_type": "A319",
+      "display_name": "Airbus A319",
+      "addon_vendor": "ToLiss",
+      "tags": [
+        "addon",
+        "payware"
+      ]
+    },
+    {
+      "source_id": "a320",
+      "icao_type": "A320",
+      "display_name": "Airbus A320",
+      "addon_vendor": "ToLiss",
+      "tags": [
+        "addon",
+        "payware"
+      ]
+    },
+    {
+      "source_id": "a321",
+      "icao_type": "A321",
+      "display_name": "Airbus A321",
+      "addon_vendor": "ToLiss",
+      "tags": [
+        "addon",
+        "payware"
+      ]
+    },
+    {
+      "source_id": "A330",
+      "icao_type": "A332",
+      "display_name": "Airbus A330-200",
+      "addon_vendor": "Laminar Research",
+      "tags": [
+        "addon",
+        "freeware"
+      ]
+    },
+    {
+      "source_id": "A330_PW4000",
+      "icao_type": "A332",
+      "display_name": "Airbus A330-200 (PW4000)",
+      "addon_vendor": "AeroGenesis",
+      "tags": [
+        "addon",
+        "freeware"
+      ]
+    },
+    {
+      "source_id": "a339",
+      "icao_type": "A339",
+      "display_name": "Airbus A330-900neo",
+      "addon_vendor": "ToLiss",
+      "tags": [
+        "addon",
+        "payware"
+      ]
+    },
+    {
+      "source_id": "B737",
+      "icao_type": "B737",
+      "display_name": "Boeing 737-700",
+      "addon_vendor": "LevelUp",
+      "tags": [
+        "addon",
+        "freeware"
+      ]
+    },
+    {
+      "source_id": "b738_4k",
+      "icao_type": "B738",
+      "display_name": "Boeing 737-800",
+      "addon_vendor": "Zibo",
+      "tags": [
+        "addon",
+        "freeware"
+      ]
+    },
+    {
+      "source_id": "Baron_58",
+      "icao_type": "BE58",
+      "display_name": "Beechcraft Baron 58",
+      "addon_vendor": "Laminar Research",
+      "tags": [
+        "stock"
+      ]
+    },
+    {
+      "source_id": "Boeing_737-800",
+      "icao_type": "B738",
+      "display_name": "Boeing 737-800",
+      "addon_vendor": "Laminar Research",
+      "tags": [
+        "stock"
+      ]
+    },
+    {
+      "source_id": "Boeing_747-400",
+      "icao_type": "B744",
+      "display_name": "Boeing 747-400",
+      "addon_vendor": "Laminar Research",
+      "tags": [
+        "stock"
+      ]
+    },
+    {
+      "source_id": "Cessna_172SP",
+      "icao_type": "C172",
+      "display_name": "Cessna 172 Skyhawk SP",
+      "addon_vendor": "Laminar Research",
+      "tags": [
+        "stock"
+      ]
+    },
+    {
+      "source_id": "Cessna_172SP_G1000",
+      "icao_type": "C172",
+      "display_name": "Cessna 172 Skyhawk SP (G1000)",
+      "addon_vendor": "Laminar Research",
+      "tags": [
+        "stock"
+      ]
+    },
+    {
+      "source_id": "Cessna_CitationX",
+      "icao_type": "C750",
+      "display_name": "Cessna Citation X",
+      "addon_vendor": "Laminar Research",
+      "tags": [
+        "stock"
+      ]
+    },
+    {
+      "source_id": "Cirrus SR22",
+      "icao_type": "SR22",
+      "display_name": "Cirrus SR22",
+      "addon_vendor": "Laminar Research",
+      "tags": [
+        "addon"
+      ]
+    },
+    {
+      "source_id": "Cirrus_SF50",
+      "icao_type": "SF50",
+      "display_name": "Cirrus Vision Jet SF50",
+      "addon_vendor": "Laminar Research",
+      "tags": [
+        "stock"
+      ]
+    },
+    {
+      "source_id": "E175",
+      "icao_type": "E170",
+      "display_name": "Embraer E175",
+      "addon_vendor": "X-Crafts",
+      "tags": [
+        "addon",
+        "payware"
+      ]
+    },
+    {
+      "source_id": "F-4",
+      "icao_type": "F4",
+      "display_name": "McDonnell Douglas F-4 Phantom II",
+      "addon_vendor": "Laminar Research",
+      "tags": [
+        "addon",
+        "military"
+      ]
+    },
+    {
+      "source_id": "FF_A320U",
+      "icao_type": "A320",
+      "display_name": "Airbus A320 Ultimate",
+      "addon_vendor": "FlightFactor",
+      "tags": [
+        "addon",
+        "payware"
+      ]
+    },
+    {
+      "source_id": "KingAir_C90B",
+      "icao_type": "BE9L",
+      "display_name": "Beechcraft King Air C90B",
+      "addon_vendor": "Laminar Research",
+      "tags": [
+        "stock"
+      ]
+    },
+    {
+      "source_id": "Legacy",
+      "icao_type": "E35L",
+      "display_name": "Embraer Legacy 600/650",
+      "addon_vendor": "X-Crafts",
+      "tags": [
+        "addon",
+        "payware"
+      ]
+    },
+    {
+      "source_id": "Lineage",
+      "icao_type": "E190",
+      "display_name": "Embraer Lineage 1000",
+      "addon_vendor": "X-Crafts",
+      "tags": [
+        "addon",
+        "payware"
+      ]
+    },
+    {
+      "source_id": "Rotate-MD-11",
+      "icao_type": "MD11",
+      "display_name": "McDonnell Douglas MD-11",
+      "addon_vendor": "Rotate",
+      "tags": [
+        "addon",
+        "payware"
+      ]
+    },
+    {
+      "source_id": "Rotate-MD-80",
+      "icao_type": "MD82",
+      "display_name": "McDonnell Douglas MD-82",
+      "addon_vendor": "Rotate",
+      "tags": [
+        "addon",
+        "payware"
+      ]
+    },
+    {
+      "source_id": "SSG_748",
+      "icao_type": "B748",
+      "display_name": "Boeing 747-8i",
+      "addon_vendor": "SSG",
+      "tags": [
+        "addon",
+        "payware"
+      ]
+    },
+    {
+      "source_id": "VSL P2006T-G1000",
+      "icao_type": "P06T",
+      "display_name": "Tecnam P2006T (G1000)",
+      "addon_vendor": "VSL",
+      "tags": [
+        "addon",
+        "payware"
+      ]
+    }
+  ]
+}

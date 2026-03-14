@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/YOUR_USERNAME/pilotlog-import-mappings/schemas/aircraft-mapping.schema.json",
+  "title": "Aircraft Mapping File",
+  "description": "Maps simulator-specific aircraft identifiers to ICAO type designators and metadata.",
+  "type": "object",
+  "required": ["schema_version", "source", "mappings"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "type": "integer",
+      "const": 1,
+      "description": "Schema version for forward compatibility. Current version: 1."
+    },
+    "source": {
+      "type": "string",
+      "enum": ["xplane", "msfs", "flightlogger"],
+      "description": "The simulator or platform this mapping file applies to."
+    },
+    "description": {
+      "type": "string",
+      "description": "Optional human-readable description of this mapping file."
+    },
+    "mappings": {
+      "type": "array",
+      "description": "List of aircraft mapping entries.",
+      "items": {
+        "$ref": "#/$defs/MappingEntry"
+      },
+      "minItems": 1
+    }
+  },
+  "$defs": {
+    "MappingEntry": {
+      "type": "object",
+      "required": ["source_id", "icao_type"],
+      "additionalProperties": false,
+      "properties": {
+        "source_id": {
+          "type": "string",
+          "description": "The aircraft identifier as it appears in the simulator logbook. For X-Plane: the aircraft folder name or acf ICAO field. For MSFS: the AircraftTitle from CSV export. For FlightLogger: the aircraft type string from the export.",
+          "minLength": 1
+        },
+        "icao_type": {
+          "type": "string",
+          "description": "ICAO type designator (e.g. C172, A320, B738). Must match a code in the ICAO aircraft type designator database.",
+          "pattern": "^[A-Z0-9]{2,4}$"
+        },
+        "display_name": {
+          "type": "string",
+          "description": "Optional human-friendly name shown in the UI. If omitted, the name from the aircraft_types reference table is used."
+        },
+        "addon_vendor": {
+          "type": ["string", "null"],
+          "description": "The third-party addon developer, if applicable. Null or omitted for default/stock aircraft."
+        },
+        "tags": {
+          "type": "array",
+          "description": "Optional tags for filtering and categorization.",
+          "items": {
+            "type": "string",
+            "enum": [
+              "stock",
+              "addon",
+              "freeware",
+              "payware",
+              "military",
+              "helicopter",
+              "glider",
+              "experimental"
+            ]
+          },
+          "uniqueItems": true,
+          "default": []
+        },
+        "notes": {
+          "type": "string",
+          "description": "Optional free-text notes (e.g. version-specific caveats)."
+        }
+      }
+    }
+  }
+}
