@@ -100,4 +100,4 @@ Mapping files follow a versioned JSON Schema (`schemas/aircraft-mapping.schema.j
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+Apache 2.0 — see [LICENSE](LICENSE).
