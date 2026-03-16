@@ -33,6 +33,10 @@
       ]
     },
     {
+      "source_id": "747-400F",
+      "icao_type": "B744"
+    },
+    {
       "source_id": "757-RF_xp12",
       "icao_type": "B752",
       "display_name": "Boeing 757-200",
