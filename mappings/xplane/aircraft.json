@@ -1,6 +1,5 @@
 {
-  "schema_version": 1,
-  "source": "xplane",
+  "Airbus A320": "A320",
   "description": "Aircraft mappings for X-Plane 11/12 default and popular addon aircraft.",
   "mappings": [
     {
@@ -333,5 +332,7 @@
         "payware"
       ]
     }
-  ]
+  ],
+  "schema_version": 1,
+  "source": "xplane"
 }
