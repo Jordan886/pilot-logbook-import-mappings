@@ -1,0 +1,48 @@
+name: Delete mapping branches on PR close (if not merged)
+
+on:
+  pull_request:
+    types: [closed]
+
+permissions:
+  contents: write
+
+jobs:
+  delete-branch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Delete mapping/* branch if PR closed without merge
+        if: github.event.pull_request.merged == false
+        run: |
+          BRANCH="${{ github.event.pull_request.head.ref }}"
+          REPO="${{ github.repository }}"
+          IS_FORK="${{ github.event.pull_request.head.repo.full_name != github.repository }}"
+
+          echo "PR closed without merge."
+          echo "Branch: $BRANCH"
+
+          # Skip if PR comes from a fork
+          if [ "$IS_FORK" = "true" ]; then
+            echo "Skipping: branch is from a fork."
+            exit 0
+          fi
+
+          # Only delete branches matching mapping/*
+          if [[ "$BRANCH" != mapping/* ]]; then
+            echo "Skipping: branch does not match 'mapping/*' pattern."
+            exit 0
+          fi
+
+          echo "Branch matches pattern. Attempting deletion..."
+
+          RESPONSE=$(curl -s -o /dev/null -w "%{http_code}" -X DELETE \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/$REPO/git/refs/heads/$BRANCH)
+
+          if [ "$RESPONSE" = "204" ]; then
+            echo "✅ Successfully deleted branch: $BRANCH"
+          else
+            echo "⚠️ Could not delete branch. HTTP status: $RESPONSE"
+          fi
