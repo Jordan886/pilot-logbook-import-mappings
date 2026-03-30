@@ -87,6 +87,10 @@
       ]
     },
     {
+      "source_id": "jplogistics-aircraft-c152",
+      "icao_type": "C152"
+    },
+    {
       "source_id": "Leonardo Fly the Maddog X MD-82",
       "icao_type": "MD82",
       "display_name": "McDonnell Douglas MD-82",
