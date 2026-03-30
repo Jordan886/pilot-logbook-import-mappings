@@ -67,6 +67,10 @@
       ]
     },
     {
+      "source_id": "asobo-aircraft-vl3",
+      "icao_type": "ZZZZ"
+    },
+    {
       "source_id": "Fenix A320 CEO",
       "icao_type": "A320",
       "display_name": "Airbus A320ceo",
