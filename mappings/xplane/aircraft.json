@@ -4,6 +4,10 @@
   "description": "Aircraft mappings for X-Plane 11/12 default and popular addon aircraft.",
   "mappings": [
     {
+      "source_id": "[TEST] Cessna® 172/SP \"Skyhawk\" (G2) — édition spéciale #1 ✈ 2024",
+      "icao_type": "C172"
+    },
+    {
       "source_id": "737_60NG",
       "icao_type": "B736",
       "display_name": "Boeing 737-600",
