@@ -77,6 +77,10 @@
       ]
     },
     {
+      "source_id": "fsreborn-aircraft-stings4",
+      "icao_type": "ZZZZ"
+    },
+    {
       "source_id": "iniSimulations A310-300",
       "icao_type": "A310",
       "display_name": "Airbus A310-300",
