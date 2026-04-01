@@ -88,7 +88,13 @@
     },
     {
       "source_id": "fsreborn-aircraft-stings4",
-      "icao_type": "ZZZZ"
+      "icao_type": "TL20",
+      "display_name": "StingS 4",
+      "addon_vendor": "FSReborn",
+      "tags": [
+        "addon",
+        "freeware"
+      ]
     },
     {
       "source_id": "iniSimulations A310-300",
