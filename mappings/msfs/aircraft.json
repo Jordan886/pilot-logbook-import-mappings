@@ -4,8 +4,14 @@
   "description": "Aircraft mappings for Microsoft Flight Simulator 2020/2024. source_id values correspond to the AircraftTitle column in CSV exports.",
   "mappings": [
     {
-      "source_id": "aerosachs-tecnam-p2008jcmkii-v1.0.0",
-      "icao_type": "P208"
+      "source_id": "aerosachs-tecnam-p92-v1.5",
+      "icao_type": "P208",
+      "display_name": "Tecnam P2008T",
+      "addon_vendor": "Aerosachs",
+      "tags": [
+        "addon",
+        "payware"
+      ]
     },
     {
       "source_id": "Asobo_A320_NEO",
@@ -71,6 +77,24 @@
       ]
     },
     {
+      "source_id": "asobo-aircraft-pipistrel",
+      "icao_type": "PIVI",
+      "display_name": "Pipistrel Virus",
+      "addon_vendor": "Asobo",
+      "tags": [
+        "stock"
+      ]
+    },
+    {
+      "source_id": "asobo-aircraft-vl3",
+      "icao_type": "VL3",
+      "display_name": "JMB VL3",
+      "addon_vendor": "Asobo",
+      "tags": [
+        "stock"
+      ]
+    },
+    {
       "source_id": "Fenix A320 CEO",
       "icao_type": "A320",
       "display_name": "Airbus A320ceo",
@@ -78,6 +102,16 @@
       "tags": [
         "addon",
         "payware"
+      ]
+    },
+    {
+      "source_id": "fsreborn-aircraft-stings4",
+      "icao_type": "TL20",
+      "display_name": "TL-2000 Sting S4",
+      "addon_vendor": "FSReborn",
+      "tags": [
+        "addon",
+        "freeware"
       ]
     },
     {
