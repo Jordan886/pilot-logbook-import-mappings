@@ -324,6 +324,10 @@
       ]
     },
     {
+      "source_id": "SSG_B748-F_12",
+      "icao_type": "B748"
+    },
+    {
       "source_id": "VSL P2006T-G1000",
       "icao_type": "P06T",
       "display_name": "Tecnam P2006T (G1000)",
