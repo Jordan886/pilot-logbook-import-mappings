@@ -96,6 +96,15 @@
       ]
     },
     {
+      "source_id": "asobo-aircraft-sr22",
+      "icao_type": "SR22",
+      "display_name": "Cirrus SR22",
+      "addon_vendor": "Asobo",
+      "tags": [
+        "stock"
+      ]
+    },
+    {
       "source_id": "asobo-aircraft-vl3",
       "icao_type": "VL3",
       "display_name": "JMB VL3",
