@@ -87,67 +87,12 @@
       ]
     },
     {
-      "source_id": "asobo-aircraft-c152",
-      "icao_type": "C152",
-      "display_name": "Cessna 152",
+      "source_id": "asobo-aircraft-dr400",
+      "icao_type": "DR40",
+      "display_name": "Robin Aircraft DR400",
       "addon_vendor": "Asobo",
       "tags": [
         "stock"
-      ]
-    },
-    {
-      "source_id": "asobo-aircraft-da40-ng",
-      "icao_type": "DA40",
-      "display_name": "Diamond DA40 NG",
-      "addon_vendor": "Asobo",
-      "tags": [
-        "stock"
-      ]
-    },
-    {
-      "source_id": "asobo-aircraft-pipistrel",
-      "icao_type": "PIVI",
-      "display_name": "Pipistrel Virus",
-      "addon_vendor": "Asobo",
-      "tags": [
-        "stock"
-      ]
-    },
-    {
-      "source_id": "asobo-aircraft-sr22",
-      "icao_type": "SR22",
-      "display_name": "Cirrus SR22",
-      "addon_vendor": "Asobo",
-      "tags": [
-        "stock"
-      ]
-    },
-    {
-      "source_id": "asobo-aircraft-vl3",
-      "icao_type": "VL3",
-      "display_name": "JMB VL3",
-      "addon_vendor": "Asobo",
-      "tags": [
-        "stock"
-      ]
-    },
-    {
-      "source_id": "da40-ngx",
-      "icao_type": "DA40",
-      "display_name": "Diamond DA40NG",
-      "addon_vendor": "Asobo",
-      "tags": [
-        "stock"
-      ]
-    },
-    {
-      "source_id": "erasam-aircraft-tecnam-p92-echo",
-      "icao_type": "P92",
-      "display_name": "Tecnam P92 Echo",
-      "addon_vendor": "Erasam",
-      "tags": [
-        "addon",
-        "payware"
       ]
     },
     {
