@@ -114,6 +114,15 @@
       ]
     },
     {
+      "source_id": "da40-ngx",
+      "icao_type": "DA40",
+      "display_name": "Diamond DA40NG",
+      "addon_vendor": "Asobo",
+      "tags": [
+        "stock"
+      ]
+    },
+    {
       "source_id": "Fenix A320 CEO",
       "icao_type": "A320",
       "display_name": "Airbus A320ceo",
