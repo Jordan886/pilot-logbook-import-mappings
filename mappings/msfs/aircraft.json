@@ -69,6 +69,15 @@
       ]
     },
     {
+      "source_id": "asobo-aircraft-c152",
+      "icao_type": "C152",
+      "display_name": "Cessna 152",
+      "addon_vendor": "Asobo",
+      "tags": [
+        "stock"
+      ]
+    },
+    {
       "source_id": "Asobo_C172SP_Classic",
       "icao_type": "C172",
       "display_name": "Cessna 172 Skyhawk (Classic)",
