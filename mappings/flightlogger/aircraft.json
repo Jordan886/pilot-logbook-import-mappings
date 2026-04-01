@@ -4,6 +4,10 @@
   "description": "Aircraft mappings for FlightLogger exports. source_id values correspond to the aircraft type string in FlightLogger CSV/JSON exports.",
   "mappings": [
     {
+      "source_id": "ALSIM ALX",
+      "icao_type": "FNPT"
+    },
+    {
       "source_id": "C172",
       "icao_type": "C172",
       "display_name": "Cessna 172 Skyhawk"
