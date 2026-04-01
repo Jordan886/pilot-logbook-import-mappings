@@ -5,7 +5,13 @@
   "mappings": [
     {
       "source_id": "aerosachs-tecnam-p92-v1.5",
-      "icao_type": "ZZZZ"
+      "icao_type": "P208",
+      "display_name": "Tecnam P2008T",
+      "addon_vendor": "Aerosachs",
+      "tags": [
+        "addon",
+        "payware"
+      ]
     },
     {
       "source_id": "Asobo_A320_NEO",
