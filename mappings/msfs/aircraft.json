@@ -14,6 +14,15 @@
       ]
     },
     {
+      "source_id": "asobo-aircraft-pipistrel",
+      "icao_type": "PIVI",
+      "display_name": "Pipistrel Virus",
+      "addon_vendor": "Asobo",
+      "tags": [
+        "stock"
+      ]
+    },
+    {
       "source_id": "Asobo_A320_NEO",
       "icao_type": "A20N",
       "display_name": "Airbus A320neo",
@@ -98,7 +107,7 @@
     {
       "source_id": "fsreborn-aircraft-stings4",
       "icao_type": "TL20",
-      "display_name": "StingS 4",
+      "display_name": "TL-2000 Sting S4",
       "addon_vendor": "FSReborn",
       "tags": [
         "addon",
