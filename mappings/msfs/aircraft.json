@@ -114,6 +114,15 @@
       ]
     },
     {
+      "source_id": "asobo-aircraft-dv20",
+      "icao_type": "DV20",
+      "display_name": "Diamond DV20",
+      "addon_vendor": "Asobo",
+      "tags": [
+        "stock"
+      ]
+    },
+    {
       "source_id": "asobo-aircraft-pipistrel",
       "icao_type": "PIVI",
       "display_name": "Pipistrel Virus",
