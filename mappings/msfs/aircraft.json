@@ -78,7 +78,12 @@
     },
     {
       "source_id": "asobo-aircraft-vl3",
-      "icao_type": "ZZZZ"
+      "icao_type": "VL3",
+      "display_name": "JMB VL3",
+      "addon_vendor": "Asobo",
+      "tags": [
+        "stock"
+      ]
     },
     {
       "source_id": "Fenix A320 CEO",
