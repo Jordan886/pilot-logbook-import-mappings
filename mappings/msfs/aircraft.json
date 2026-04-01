@@ -4,9 +4,19 @@
   "description": "Aircraft mappings for Microsoft Flight Simulator 2020/2024. source_id values correspond to the AircraftTitle column in CSV exports.",
   "mappings": [
     {
-      "source_id": "aerosachs-tecnam-p92-v1.5",
+      "source_id": "aerosachs-tecnam-p2008jcmkii-v1.0.0",
       "icao_type": "P208",
-      "display_name": "Tecnam P2008T",
+      "display_name": "Tecnam P2008JC",
+      "addon_vendor": "Aerosachs",
+      "tags": [
+        "addon",
+        "payware"
+      ]
+    },
+    {
+      "source_id": "aerosachs-tecnam-p92-v1.5",
+      "icao_type": "P92",
+      "display_name": "Tecnam P92",
       "addon_vendor": "Aerosachs",
       "tags": [
         "addon",
