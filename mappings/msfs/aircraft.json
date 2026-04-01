@@ -123,6 +123,16 @@
       ]
     },
     {
+      "source_id": "erasam-aircraft-tecnam-p92-echo",
+      "icao_type": "P92",
+      "display_name": "Tecnam P92 Echo",
+      "addon_vendor": "Erasam",
+      "tags": [
+        "addon",
+        "payware"
+      ]
+    },
+    {
       "source_id": "Fenix A320 CEO",
       "icao_type": "A320",
       "display_name": "Airbus A320ceo",
