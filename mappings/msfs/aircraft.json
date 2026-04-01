@@ -105,6 +105,15 @@
       ]
     },
     {
+      "source_id": "asobo-aircraft-dr400",
+      "icao_type": "DR40",
+      "display_name": "Robin Aircraft DR400",
+      "addon_vendor": "Asobo",
+      "tags": [
+        "stock"
+      ]
+    },
+    {
       "source_id": "asobo-aircraft-pipistrel",
       "icao_type": "PIVI",
       "display_name": "Pipistrel Virus",
