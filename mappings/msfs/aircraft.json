@@ -96,6 +96,15 @@
       ]
     },
     {
+      "source_id": "asobo-aircraft-da40-ng",
+      "icao_type": "DA40",
+      "display_name": "Diamond DA40 NG",
+      "addon_vendor": "Asobo",
+      "tags": [
+        "stock"
+      ]
+    },
+    {
       "source_id": "asobo-aircraft-pipistrel",
       "icao_type": "PIVI",
       "display_name": "Pipistrel Virus",
