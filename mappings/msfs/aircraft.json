@@ -154,6 +154,16 @@
       ]
     },
     {
+      "source_id": "mge-asobo-aircraft-sr22",
+      "icao_type": "SR22",
+      "display_name": "Cirrus SR22",
+      "addon_vendor": "Asobo",
+      "tags": [
+        "addon",
+        "payware"
+      ]
+    },
+    {
       "source_id": "PMDG 737-700",
       "icao_type": "B737",
       "display_name": "Boeing 737-700",
