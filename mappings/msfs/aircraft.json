@@ -145,7 +145,13 @@
     },
     {
       "source_id": "jplogistics-aircraft-c152",
-      "icao_type": "C152"
+      "icao_type": "C152",
+      "display_name": "Cessna 152",
+      "addon_vendor": "JP Logistcs",
+      "tags": [
+        "addon",
+        "freeware"
+      ]
     },
     {
       "source_id": "Leonardo Fly the Maddog X MD-82",
