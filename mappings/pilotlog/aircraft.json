@@ -25,6 +25,10 @@
     {
       "source_id": "Tecnam|P06T",
       "icao_type": "P06T"
+    },
+    {
+      "source_id": "P208|MK",
+      "icao_type": "P208"
     }
   ]
 }
