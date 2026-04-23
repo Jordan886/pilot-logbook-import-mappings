@@ -57,6 +57,10 @@
     {
       "source_id": "AEROSPATIALE|AT-3",
       "icao_type": "ALO3"
+    },
+    {
+      "source_id": "AT-3",
+      "icao_type": "ALO3"
     }
   ]
 }
