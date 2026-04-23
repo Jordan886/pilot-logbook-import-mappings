@@ -5,6 +5,10 @@
     {
       "source_id": "Boeing|B737|8 MAX",
       "icao_type": "B38M"
+    },
+    {
+      "source_id": "Boeing|B737|800",
+      "icao_type": "B738"
     }
   ]
 }
