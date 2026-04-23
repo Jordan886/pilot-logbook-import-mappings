@@ -13,6 +13,10 @@
     {
       "source_id": "Boeing|B737|800 BCF",
       "icao_type": "B738"
+    },
+    {
+      "source_id": "Socata|SR180",
+      "icao_type": "TB20"
     }
   ]
 }
