@@ -17,6 +17,10 @@
     {
       "source_id": "Socata|SR180",
       "icao_type": "TB20"
+    },
+    {
+      "source_id": "Z526",
+      "icao_type": "Z26"
     }
   ]
 }
