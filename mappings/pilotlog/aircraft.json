@@ -49,6 +49,10 @@
     {
       "source_id": "Cessna|C172",
       "icao_type": "C172"
+    },
+    {
+      "source_id": "Diamond|DA42",
+      "icao_type": "DA42"
     }
   ]
 }
