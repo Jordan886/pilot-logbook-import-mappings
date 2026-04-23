@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "source": "pilotlog",
+  "mappings": [
+    {
+      "source_id": "Boeing|B737|8 MAX",
+      "icao_type": "B38M"
+    }
+  ]
+}
