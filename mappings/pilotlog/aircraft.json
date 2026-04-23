@@ -41,6 +41,10 @@
     {
       "source_id": "Piper|PA34|220T",
       "icao_type": "PA34"
+    },
+    {
+      "source_id": "Aerospatiale|AT-3",
+      "icao_type": "ALO3"
     }
   ]
 }
