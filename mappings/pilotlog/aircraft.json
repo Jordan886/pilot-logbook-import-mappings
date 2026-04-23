@@ -45,6 +45,10 @@
     {
       "source_id": "Aerospatiale|AT-3",
       "icao_type": "ALO3"
+    },
+    {
+      "source_id": "Cessna|C172",
+      "icao_type": "C172"
     }
   ]
 }
