@@ -29,6 +29,10 @@
     {
       "source_id": "P208|MK",
       "icao_type": "P208"
+    },
+    {
+      "source_id": "TECNAM|P208MK",
+      "icao_type": "P208"
     }
   ]
 }
