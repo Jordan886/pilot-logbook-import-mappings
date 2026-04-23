@@ -53,6 +53,10 @@
     {
       "source_id": "Diamond|DA42",
       "icao_type": "DA42"
+    },
+    {
+      "source_id": "AEROSPATIALE|AT-3",
+      "icao_type": "ALO3"
     }
   ]
 }
