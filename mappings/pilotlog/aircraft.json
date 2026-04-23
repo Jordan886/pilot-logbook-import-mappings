@@ -61,6 +61,10 @@
     {
       "source_id": "AT-3",
       "icao_type": "ALO3"
+    },
+    {
+      "source_id": "Cessna|C152",
+      "icao_type": "C152"
     }
   ]
 }
