@@ -37,6 +37,10 @@
     {
       "source_id": "ALX-049",
       "icao_type": "FNPT"
+    },
+    {
+      "source_id": "Piper|PA34|220T",
+      "icao_type": "PA34"
     }
   ]
 }
