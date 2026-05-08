@@ -21,6 +21,10 @@
     {
       "source_id": "Z526",
       "icao_type": "Z26"
+    },
+    {
+      "source_id": "Tecnam|P06T",
+      "icao_type": "P06T"
     }
   ]
 }
