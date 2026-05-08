@@ -15,7 +15,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const ROOT = join(__dirname, "..");
 
-const SOURCES = ["xplane", "msfs", "flightlogger"];
+const SOURCES = ["xplane", "msfs", "flightlogger", "pilotlog"];
 
 for (const source of SOURCES) {
   const filePath = join(ROOT, "mappings", source, "aircraft.json");

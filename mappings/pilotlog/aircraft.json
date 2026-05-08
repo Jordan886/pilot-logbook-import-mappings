@@ -3,6 +3,22 @@
   "source": "pilotlog",
   "mappings": [
     {
+      "source_id": "Aerospatiale|AT-3",
+      "icao_type": "ALO3"
+    },
+    {
+      "source_id": "AEROSPATIALE|AT-3",
+      "icao_type": "ALO3"
+    },
+    {
+      "source_id": "ALX-049",
+      "icao_type": "FNPT"
+    },
+    {
+      "source_id": "AT-3",
+      "icao_type": "ALO3"
+    },
+    {
       "source_id": "Boeing|B737|8 MAX",
       "icao_type": "B38M"
     },
@@ -15,36 +31,8 @@
       "icao_type": "B738"
     },
     {
-      "source_id": "Socata|SR180",
-      "icao_type": "TB20"
-    },
-    {
-      "source_id": "Z526",
-      "icao_type": "Z26"
-    },
-    {
-      "source_id": "Tecnam|P06T",
-      "icao_type": "P06T"
-    },
-    {
-      "source_id": "P208|MK",
-      "icao_type": "P208"
-    },
-    {
-      "source_id": "TECNAM|P208MK",
-      "icao_type": "P208"
-    },
-    {
-      "source_id": "ALX-049",
-      "icao_type": "FNPT"
-    },
-    {
-      "source_id": "Piper|PA34|220T",
-      "icao_type": "PA34"
-    },
-    {
-      "source_id": "Aerospatiale|AT-3",
-      "icao_type": "ALO3"
+      "source_id": "Cessna|C152",
+      "icao_type": "C152"
     },
     {
       "source_id": "Cessna|C172",
@@ -55,16 +43,28 @@
       "icao_type": "DA42"
     },
     {
-      "source_id": "AEROSPATIALE|AT-3",
-      "icao_type": "ALO3"
+      "source_id": "P208|MK",
+      "icao_type": "P208"
     },
     {
-      "source_id": "AT-3",
-      "icao_type": "ALO3"
+      "source_id": "Piper|PA34|220T",
+      "icao_type": "PA34"
     },
     {
-      "source_id": "Cessna|C152",
-      "icao_type": "C152"
+      "source_id": "Socata|SR180",
+      "icao_type": "TB20"
+    },
+    {
+      "source_id": "Tecnam|P06T",
+      "icao_type": "P06T"
+    },
+    {
+      "source_id": "TECNAM|P208MK",
+      "icao_type": "P208"
+    },
+    {
+      "source_id": "Z526",
+      "icao_type": "Z26"
     }
   ]
 }

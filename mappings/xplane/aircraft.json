@@ -34,7 +34,13 @@
     },
     {
       "source_id": "747-400F",
-      "icao_type": "B744"
+      "icao_type": "B744",
+      "display_name": "Boeing 747-400F",
+      "addon_vendor": "mSparks43",
+      "tags": [
+        "addon",
+        "freeware"
+      ]
     },
     {
       "source_id": "757-RF_xp12",
@@ -329,7 +335,13 @@
     },
     {
       "source_id": "SSG_B748-F_12",
-      "icao_type": "B748"
+      "icao_type": "B748",
+      "display_name": "Boeing 747-8F",
+      "addon_vendor": "SSG",
+      "tags": [
+        "addon",
+        "payware"
+      ]
     },
     {
       "source_id": "VSL P2006T-G1000",

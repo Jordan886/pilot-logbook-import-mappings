@@ -24,7 +24,7 @@ const schema = JSON.parse(
 const ajv = new Ajv({ allErrors: true });
 const validate = ajv.compile(schema);
 
-const SOURCES = ["xplane", "msfs", "flightlogger"];
+const SOURCES = ["xplane", "msfs", "flightlogger", "pilotlog"];
 let hasErrors = false;
 
 for (const source of SOURCES) {

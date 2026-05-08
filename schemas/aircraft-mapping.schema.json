@@ -14,7 +14,7 @@
     },
     "source": {
       "type": "string",
-      "enum": ["xplane", "msfs", "flightlogger"],
+      "enum": ["xplane", "msfs", "flightlogger", "pilotlog"],
       "description": "The simulator or platform this mapping file applies to."
     },
     "description": {
