@@ -33,6 +33,10 @@
     {
       "source_id": "TECNAM|P208MK",
       "icao_type": "P208"
+    },
+    {
+      "source_id": "ALX-049",
+      "icao_type": "FNPT"
     }
   ]
 }
